@@ -1,0 +1,33 @@
+[color]
+	ui = true
+[user]
+	name = Łukasz Szmelc
+	email = lukasz.szmelc@netguru.pl
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[credential]
+	helper = osxkeychain
+[alias]
+	co = checkout
+  ci = commit
+  lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  publish = git push --set-upstream origin $(git rev-parse — abbrev-ref HEAD)
+  s = status
+
+# Show files changed in each commit
+  ll = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --numstat
+
+# Delete the remote version of the current branch
+  unpublish = !git push origin :$(git branch-name)
+# Get the current branch name (not so useful in itself, but used in other aliases)
+  branch-name = !git rev-parse --abbrev-ref HEAD
+
+# Push the current branch to the remote "origin", and set it to track
+# the upstream branch
+  publish = !git push -u origin $(git branch-name)  
+
+[core]
+	editor = vim
