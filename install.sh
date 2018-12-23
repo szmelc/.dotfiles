@@ -5,6 +5,11 @@ brew tap caskroom/versions
 brew install node
 brew install git
 brew install wget
+
+# Install zsh and make it default shell
+brew install zsh
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
 brew cask install dropbox
 brew cask install firefox
 brew cask install google-chrome
