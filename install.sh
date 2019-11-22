@@ -11,11 +11,8 @@ brew install zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 brew cask install dropbox
-brew cask install firefox
 brew cask install google-chrome
 brew cask install spotify
-brew cask install sublime-text3
-brew cask install virtualbox
 brew cask install vlc
 
 ln -sv “~/.dotfiles/runcom/.bash_profile” ~
