@@ -2,7 +2,7 @@
 	ui = true
 [user]
 	name = Łukasz Szmelc
-	email = lukasz.szmelc@netguru.pl
+	email = lszmelc@gmail.com
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
