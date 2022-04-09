@@ -4,7 +4,6 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 set rtp+=/usr/local/opt/fzf
 call vundle#begin()
-Plugin 'elixir-lang/vim-elixir'
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'sheerun/vim-polyglot'
@@ -53,7 +52,7 @@ inoremap jj <Esc>
 "make esc do nothing"
 inoremap <Esc> <Nop>
 
-syntax enable 
+syntax enable
 let g:snipMate = get(g:, 'snipMate', {}) " Allow for vimrc re-sourcing
 let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['ruby'] = 'ruby,rails'

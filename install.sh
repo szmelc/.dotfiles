@@ -1,19 +1,17 @@
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap caskroom/cask
-brew tap caskroom/versions
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# brew tap caskroom/cask
+# brew tap caskroom/versions
 
-brew install node
-brew install git
-brew install wget
+# brew install node
+# brew install git
 
-# Install zsh and make it default shell
-brew install zsh
-sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+# # Install zsh and make it default shell
+# brew install zsh
+# sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install spotify
-brew cask install vlc
+# brew install --cask google-chrome
+# brew install --cask spotify
+# brew install --cask vlc
 
 ln -sv “~/.dotfiles/runcom/.bash_profile” ~
 ln -sv “~/.dotfiles/runcom/.inputrc” ~
