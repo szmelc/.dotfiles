@@ -17,9 +17,9 @@ brew install --cask docker
 
 # brew install --cask google-chrome
 
-ln -sv “~/.dotfiles/runcom/.bash_profile” ~
-ln -sv “~/.dotfiles/runcom/.inputrc” ~
-ln -sv “~/.dotfiles/git/.gitconfig” ~
-ln -sv “~/.dotfiles/system/.env” ~
-ln -sv “~/.dotfiles/vim/.vimrc” ~
-ln -sv “~/.dotfiles/zsh/.zshrc” ~
+ln -sv "~/.dotfiles/runcom/.bash_profile" ~
+ln -sv "~/.dotfiles/runcom/.inputrc" ~
+ln -sv "~/.dotfiles/git/.gitconfig" ~
+ln -sv "~/.dotfiles/system/.env" ~
+ln -sv "~/.dotfiles/vim/.vimrc" ~
+ln -sv "~/.dotfiles/zsh/.zshrc" ~
