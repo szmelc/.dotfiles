@@ -1,0 +1,32 @@
+{
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Darker than One Dark Pro (Contrast)",
+  "workbench.colorCustomizations": {
+      "editorError.foreground": "#00000000",
+      "editorWarning.foreground": "#00000000",
+      "editorInfo.foreground": "#00000000"
+  },
+  "editor.minimap.enabled": false,
+  "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+  },
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": false,
+  "ruby.useLanguageServer": true,
+  "ruby.intellisense": "rubyLocate",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.trimTrailingWhitespace": false,
+  "simpleBrowser.focusLockIndicator.enabled": false,
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "ruby.rubocop.onSave": true,
+  "editor.formatOnSave": false,
+  "update.showReleaseNotes": false,
+  "database-client.autoSync": true,
+  "workbench.settings.applyToAllProfiles": [
+
+      applyToAllProfiles
+  ],
+  "ruby.rubocop.autoCorrect": false,
+  "ruby.rubocop.autoCorrectOnSave": false
+}
