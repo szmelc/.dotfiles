@@ -4,12 +4,17 @@
 
 brew install node
 brew install git
+brew install redis
+brew install gh
 brew install --cask visual-studio-code
 brew install --cask postman
-brew install redis
 brew install --cask spotify
 brew install --cask vlc
 brew install --cask docker
+brew install --cask notion
+brew install --cask slack
+brew install --cask chrome
+brew install --cask postico
 
 # # Install zsh and make it default shell
 # brew install zsh
@@ -23,3 +28,5 @@ ln -sv "~/.dotfiles/git/.gitconfig" ~
 ln -sv "~/.dotfiles/system/.env" ~
 ln -sv "~/.dotfiles/vim/.vimrc" ~
 ln -sv "~/.dotfiles/zsh/.zshrc" ~
+
+sh .osxdefaults.sh
