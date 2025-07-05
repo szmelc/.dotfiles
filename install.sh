@@ -1,6 +1,9 @@
 # ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # brew tap caskroom/cask
 # brew tap caskroom/versions
+# brew install zsh
+brew install wget
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 brew install node
 brew install git
@@ -17,8 +20,6 @@ brew install --cask chrome
 brew install --cask postico
 
 # # Install zsh and make it default shell
-# brew install zsh
-# sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 # brew install --cask google-chrome
 
