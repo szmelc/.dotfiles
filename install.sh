@@ -22,11 +22,11 @@ brew install --cask postico
 
 # brew install --cask google-chrome
 
-ln -sv "~/.dotfiles/runcom/.bash_profile" ~
-ln -sv "~/.dotfiles/runcom/.inputrc" ~
-ln -sv "~/.dotfiles/git/.gitconfig" ~
-ln -sv "~/.dotfiles/system/.env" ~
-ln -sv "~/.dotfiles/vim/.vimrc" ~
-ln -sv "~/.dotfiles/zsh/.zshrc" ~
+ln -sv "$HOME/.dotfiles/runcom/.bash_profile" ~
+ln -sv "$HOME/.dotfiles/runcom/.inputrc" ~
+ln -sv "$HOME/.dotfiles/git/.gitconfig" ~
+ln -sv "$HOME/.dotfiles/system/.env" ~
+ln -sv "$HOME/.dotfiles/vim/.vimrc" ~
+ln -sv "$HOME/.dotfiles/zsh/.zshrc" ~
 
 sh .osxdefaults.sh
